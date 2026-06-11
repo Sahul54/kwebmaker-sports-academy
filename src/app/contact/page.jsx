@@ -1,8 +1,9 @@
-export default function About() {
+
+export default function contact() {
   return (
     <main className="py-24">
       <h1 className="text-5xl font-bold text-center">
-        About SSA Academy
+        Contact Us
       </h1>
     </main>
   );

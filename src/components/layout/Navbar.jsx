@@ -97,7 +97,7 @@ export default function Navbar() {
 
               <button
                 onClick={() => setIsOpen(true)}
-                className="lg:hidden text-white"
+                className="lg:hidden text-black"
               >
                 <Menu size={28} />
               </button>

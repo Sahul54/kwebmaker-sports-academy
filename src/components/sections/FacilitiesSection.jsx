@@ -40,10 +40,10 @@ export default function FacilitiesSection() {
           className="
             hidden lg:block
             absolute
-            right-[-160px]
-            top-[20px]
-            w-[350px]
-            h-[350px]
+            right-[10px]
+            top-[380px]
+            w-[320px]
+            h-[320px]
             text-white/10
             z-0
           "

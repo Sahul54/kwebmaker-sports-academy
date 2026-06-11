@@ -154,39 +154,36 @@ export default function Footer() {
       </Container>
 
       {/* Bottom Bar */}
-      <div className="bg-gradient-to-r from-[#003b63] via-[#195a4c] to-[#9cc10b]">
-        <Container>
-          <div className="py-2">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-3 text-white text-xs md:text-sm">
-              
-              <Link
-                href="/terms-and-conditions"
-                className="hover:text-white/80 transition"
-              >
-                Terms & Conditions
-              </Link>
+     <div className="bg-gradient-to-r from-[#003b63] via-[#195a4c] to-[#9cc10b]">
+      <Container>
+        <div className="py-2">
+          <div className="flex items-center justify-between gap-2 text-white text-[8px] sm:text-xs md:text-sm">
+            
+            <Link
+              href="/terms-and-conditions"
+              className="hover:text-white/80 transition whitespace-nowrap"
+            >
+              Terms & Conditions
+            </Link>
 
-              <p className="text-center">
-                © 2025 All Rights Reserved
-                <span className="hidden md:inline">
-                  {" "}www.signatureslamacademy.com
-                </span>
+            <p className="text-center whitespace-nowrap">
+              © 2025 All Rights Reserved
+              <span className="ml-1">
+                www.signatureslamacademy.com
+              </span>
+            </p>
 
-                <span className="block md:hidden">
-                  www.signatureslamacademy.com
-                </span>
-              </p>
+            <Link
+              href="/privacy-policy"
+              className="hover:text-white/80 transition whitespace-nowrap"
+            >
+              Privacy Policy
+            </Link>
 
-              <Link
-                href="/privacy-policy"
-                className="hover:text-white/80 transition"
-              >
-                Privacy Policy
-              </Link>
-            </div>
           </div>
-        </Container>
-      </div>
+        </div>
+      </Container>
+    </div>
     </footer>
   );
 }

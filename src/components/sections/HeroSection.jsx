@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Container from "../common/Container";
 import { MapPin } from "lucide-react";
 import VerticalLines from "../common/VerticalLines";
+import Link from "next/link";
 
 export default function HeroSection() {
   const [weather, setWeather] = useState(null);
@@ -151,9 +152,29 @@ export default function HeroSection() {
             </div>
             </div>
 
-            <button className="mt-8 md:mt-10 px-6 md:px-8 py-3 border border-[#d8ef6b] rounded-full text-white hover:bg-[#d8ef6b] hover:text-black transition-all duration-300">
+            <Link
+              href="/contact"
+              className="
+                inline-flex
+                items-center
+                justify-center
+                mt-8
+                md:mt-10
+                px-6
+                md:px-8
+                py-3
+                border
+                border-[#d8ef6b]
+                rounded-full
+                text-white
+                hover:bg-[#d8ef6b]
+                hover:text-black
+                transition-all
+                duration-300
+              "
+            >
               Register Now
-            </button>
+            </Link>
           </div>
         </div>
 

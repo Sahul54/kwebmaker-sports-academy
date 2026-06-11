@@ -1,8 +1,8 @@
-export default function About() {
+export default function Register() {
   return (
     <main className="py-24">
       <h1 className="text-5xl font-bold text-center">
-        About SSA Academy
+        Register Page
       </h1>
     </main>
   );
